@@ -49,7 +49,7 @@ public class Cajero {
 
        double eurosSolicitados = Double.parseDouble(JOptionPane.showInputDialog("Indique cantidad de euros:"));
        if(eurosSolicitados >0){
-           JOptionPane.showMessageDialog(null,eurosSolicitados+ "disponible.");
+           JOptionPane.showMessageDialog(null,eurosSolicitados+ " disponible.");
 
        }else{
            JOptionPane.showMessageDialog(null,"Cantidad erronea");
